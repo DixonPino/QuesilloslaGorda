@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section,
+main,
+nav,
+footer,
+article,
+hgroup{
+    display: block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    transition: .4s all ease-in-out;
+}
+
+ul{
+    list-style: none;
+}
+
+.header-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4E73DF;
+}
+
+.main-menu{
+    background-color: #4E73DF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 0 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.menu-link-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-menu{
+    padding: 0 1rem;
+    line-height: 70px;
+    height: 70px;
+    display: block;
+    color: white;
+    transition: .4s all ease-in-out;
+}
+
+.links-menu:hover{
+    box-shadow: 0 -5px 0 0 white inset;
+}
+
+.cta-btn{
+    font-weight: 700;
+    background-color: #7FC80E;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5);
+    transition: .4s all ease-in-out;
+}
+
+.cta-btn:hover{
+    transform: scale(.95);
+}
+
+.hero{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0 2rem;
+    min-height: 90vh; /*1vh > 6.25px*/
+}
+
+.title-hero{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.first-title{
+    font-weight: 300;
+    display: block;
+}
+
+.description-hero{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    opacity: .7;
+}
+
+.btns{
+    background-color: #7FC80E;
+    line-height: 65px;
+    height: 65px;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5);
+    transition: .4s all ease-in-out;
+}
+
+.image-hero{
+    margin-top: 4rem;
+}
+
+.section-page{
+    padding: 4rem 0;
+    overflow: hidden;
+}
+
+.title-section{
+    font-size: 45px;
+    margin-bottom: 3rem;
+    color: steelblue;
+}
